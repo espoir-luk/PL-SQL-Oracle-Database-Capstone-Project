@@ -80,9 +80,11 @@ SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
 - SENSOR_READINGS aggregations benefit from indexed section_id.
 
 - Future optimization could include:
-                                  - Partitioning SENSOR_READINGS by date for large-scale deployments.
 
-                                  - Materialized views for frequently accessed summaries.
+  . Partitioning SENSOR_READINGS by date for large-scale deployments.
+
+  . Materialized views for frequently accessed summaries.
+
 
 ---
 
