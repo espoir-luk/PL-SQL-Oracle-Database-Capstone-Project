@@ -75,6 +75,13 @@
 - **Schema:** RUKUNDO  
 - **Database:** AgriOptima  
 - **Foreign Key Relationships:**
+
+- ## NORMALIZATION
+- **1NF**: All tables have atomic columns, no repeating groups.
+- **2NF**: All non-key attributes fully depend on the primary key.
+  Example: In SENSOR_READINGS, READING_VALUE depends on (SENSOR_ID, READING_TIMESTAMP).
+- **3NF**: No transitive dependencies.
+  Example: FARM_LOCATION depends on FARM_ID, not on SENSOR_ID.
   - FARM_SECTIONS → CROP_PROFILES  
   - SENSOR_READINGS → FARM_SECTIONS  
   - ALLOCATION_LOG → FARM_SECTIONS, RESOURCE_INVENTORY  
