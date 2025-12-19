@@ -43,7 +43,3 @@ This phase involves creating and configuring the Oracle pluggable database for t
 - ✅ DBA role granted (Super admin requirement satisfied)
 - ✅ Admin privileges tested and confirmed
 - ✅ All Phase IV requirements met
-
-## Connection String
-```bash
-sqlplus rukundo/Espoir@THU_27678_ESPOIR_AGRIOPTIMA_DB
