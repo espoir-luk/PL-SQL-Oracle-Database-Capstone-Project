@@ -46,4 +46,4 @@ This phase involves creating and configuring the Oracle pluggable database for t
 
 ## Connection String
 ```bash
-sqlplus rukundo/Espoir@THU_27678_ESPOIR_AGRIDPTIMA_DB
+sqlplus rukundo/Espoir@THU_27678_ESPOIR_AGRIOPTIMA_DB
