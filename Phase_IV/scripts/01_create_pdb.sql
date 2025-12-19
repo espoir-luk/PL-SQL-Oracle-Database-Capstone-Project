@@ -1,0 +1,22 @@
+```sql
+
+-- Phase IV: PDB Creation Script
+-- Database: THU_27678_ESPOIR_AGRIDPTIMA_DB
+
+-- Connect as SYSDBA
+CONNECT / AS SYSDBA;
+
+-- Create Pluggable Database
+CREATE PLUGGABLE DATABASE THU_27678_ESPOIR_AGRIDPTIMA_DB
+ADMIN USER agriadmin IDENTIFIED BY rukundo
+ROLES = (DBA)
+FILE_NAME_CONVERT = ('/opt/oracle/oradata/ORCL/pdbseed/', 
+                     '/opt/oracle/oradata/ORCL/THU_27678_ESPOIR_AGRIDPTIMA_DB/');
+
+-- Open PDB
+ALTER PLUGGABLE DATABASE THU_27678_ESPOIR_AGRIDPTIMA_DB OPEN;
+
+-- Save state for auto-start
+ALTER PLUGGABLE DATABASE THU_27678_ESPOIR_AGRIDPTIMA_DB SAVE STATE;
+
+```
