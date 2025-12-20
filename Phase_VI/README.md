@@ -1,3 +1,8 @@
+# Phase VI: PL/SQL Development - Database Interaction & Transactions
+
+## 📋 Overview
+This repository includes procedures, functions, cursors, window functions, and packages for the AgriOptima database system.
+
 ## 🎯 Phase VI Objectives Met
 
 | Requirement | Status | 
