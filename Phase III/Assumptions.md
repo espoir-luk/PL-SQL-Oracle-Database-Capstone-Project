@@ -1,7 +1,7 @@
 # 📖 AgriOptima Project Assumptions
 
 ## General Assumptions
-- The database schema is implemented under the **RUKUNDO** user in the **AgriOptima** database.
+- The database schema is implemented under the **RUKUNDO** user in the **thu_27678_Espoir_agriOptima_db** database.
 - Each farm section is associated with **one crop type at a time**.
 - Sensor readings are timestamped and linked to a single farm section.
 - Resource allocations are always logged with both a section and a resource reference.
